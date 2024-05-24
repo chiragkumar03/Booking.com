@@ -1,0 +1,55 @@
+
+
+
+.user-info{
+    margin: 10px;
+}
+.outside_profile{
+    padding-top: 100px;
+    margin-bottom: 40px;
+    min-height: 450px;
+    padding-top: 120px;
+    display: flex;
+}
+.profile-container {
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: large;
+    padding-bottom: 30px;
+    min-width: 500px;
+ 
+}
+
+.img{
+    height: 500px;
+}
+.profile-info {
+    text-align: center;
+    padding: 20px;
+}
+
+#log-out{
+    padding: 5px;
+    margin: 10px;
+    background-color: #45a049;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.notlogin{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box1{
+    margin: 10px;
+}
+
+
+

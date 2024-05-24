@@ -1,0 +1,55 @@
+.foot{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+.foot-section a{
+    color: rgb(156, 156, 156);
+    text-decoration: none;
+}
+.foot-section div{
+    padding: 2px 0px;
+}
+
+.foot-section p{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 0px;
+}
+
+.logo-follow{
+    height: 40px;
+    border-radius: 20px;
+    /* filter: grayscale(); */
+    padding: 5px;
+}
+
+.footbox{
+    background-color: black;
+    color: rgb(156, 156, 156);
+    text-align: center;
+}
+.terms{
+    padding: 10px;  
+}
+
+@media screen and (max-width: 470px) {
+    .foot-section p{
+        font-size: 15px;
+        padding: 0;
+    }
+    .foot-section a{
+        font-size: 12px;
+    }
+    .logo-follow{
+        height: 25px;
+        padding: 2px;
+    }
+    
+}

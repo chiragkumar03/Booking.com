@@ -1,0 +1,200 @@
+
+/* head */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    z-index: 3;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0.2px 2px grey;
+    position: fixed;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+.head-front{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+.head-back{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+.cool-logo{
+    width: 50px;
+    /* margin: 0px 20px; */
+}
+
+
+
+.button{
+    font-size:medium;
+    padding: 15px;
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+.button:hover{
+    text-decoration: none;
+}
+.search{
+    border: none;
+    outline: none;
+    font-size: medium;
+    background-color: rgb(234, 234, 234);
+}
+.search-box{
+    border: 0.5px solid grey;
+    
+    padding: 5px;
+    padding-top: 0px;
+    border-radius: 20px;
+    margin: 3px;
+    background-color: rgb(234, 234, 234);
+}
+
+.searchicon{
+    font-size: 25px;  
+    transform: translateY(5px);
+    /* margin-top: 3px;   */
+    /* padding-top: 10px; */
+}
+
+
+.gender:hover{
+    border-bottom: red 2px solid;
+    padding-bottom: 8px;
+}
+
+.icon{
+    padding: 10px;
+    color: black;
+    font-size: large;
+}
+.list-button{
+    /* display: none; */
+    padding: 15px 10px 5px 10px;
+}
+.check1{
+    display: none;
+}
+.sidebar{
+    position: fixed;
+    height: 100vh;
+    background-color: rgb(255, 255, 255,0.95);
+    width: 200px;
+    left:-200px;
+    transition: all 0.3s linear;
+    z-index: 2;
+    box-shadow: 0px 0px 2px grey;
+}
+
+.cross{
+    position: relative;
+    left: 30px;
+    top: -10px;
+}
+.sign-up{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 40px 20px;
+}
+.sign-up:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+.side-head{
+    border-bottom: grey 0.5px solid;
+    background-color: black;
+    color: white;
+}
+.side-button{
+    font-size:medium;
+    padding: 20px;
+    color: black;
+    width: 100%;
+}
+.side-h2{
+    margin-left: 10px;
+}
+.sidebar-gender{
+    /* border-bottom: grey 0.5px solid;
+    padding-bottom: 25px; */
+    display: flex;
+    flex-direction: column;
+}
+.side-button{
+    padding: 10px;
+}
+
+.check1:checked ~ .sidebar{
+    left: 0px;
+}
+
+.profile_pic{
+    font-size: 30px;
+}
+
+.logo_title{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+    margin: 10px;
+}
+.cross_icon{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.logo_title{
+    color: white;
+}
+
+.profile_pic{
+    color: white;
+}
+.searchicon{
+    color: black;
+}
+
+@media screen and (max-width: 660px) {
+    .button{
+        font-size: small;
+    }
+    .cool-logo{
+        width: 40px;
+    }
+    .search-box{
+        width: 120px;
+    }
+    .search{
+        width: 80px;
+    }
+}
+
+
+@media screen and (max-width: 527px) {
+    .button{
+        display: none;
+    }
+    .list-button{
+        display: block;
+    }
+}
+
+
+
+

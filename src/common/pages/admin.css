@@ -1,0 +1,29 @@
+.main-box{
+    padding-top: 100px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+
+
+h3{
+    padding: 20px 0px;
+}
+
+.inside-box{
+    border: solid 1px black;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    min-width: 500px;
+    text-align: center;
+}
+
+table,td,tr,th{
+    text-align: start;
+    padding: 0px 15px;
+}
